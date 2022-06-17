@@ -59,11 +59,11 @@ ul.sidebar.d__flex {
     flex-wrap: wrap;
     height: 100%;
     position: fixed;
-    right: 0%;
+    right: -2%;
     background: #010101;
     justify-content: center;
-    width: 300px;
-    top: 0%;
+    width: 200px;
+    top: -20%;
     flex-direction: column;
 }
 li.sideNavbar{
