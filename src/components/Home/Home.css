@@ -1,0 +1,50 @@
+.home__bg{
+    background-image: url(../../img/myimage.JPG);
+    background-color: #010101;
+    background-position:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.home__content{
+    padding: 125px 0px;
+    margin: 0 auto;
+    width:50%;
+}
+h1.home__text{
+    font-size: 18x;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198,202,216,.75)!important;
+}
+h2.home__text{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+}
+h3.home__text{
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+}
+.logo{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 25px;
+}
+.my_photo{
+    width:200px;
+    height:180px;
+    border-radius: 40%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.mar{
+    margin-top: 40px;
+}
