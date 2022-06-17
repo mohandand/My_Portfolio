@@ -11,7 +11,7 @@ function Home() {
   // Toogle Menu
    const [show, setShow] = useState(false);
   return (
-    <div className="home" id="Home">
+    <div className="home" id="Home" onClick={() => setShow(!show)}>
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           {/* <div className="logo">
