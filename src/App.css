@@ -41,6 +41,7 @@ p{
 }
 .align__items__center{
   align-items: center;
+  justify-content: center;
 }
 .justify__content__center{
   justify-content: center;
