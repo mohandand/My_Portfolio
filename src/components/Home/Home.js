@@ -1,7 +1,7 @@
 
 import React, {useState} from "react";
 import "./Home.css";
-
+import profile from "../../img/myimage.JPG"
 function Home() {
   // fixed Header
   window.addEventListener("scroll", function () {
@@ -69,6 +69,9 @@ function Home() {
         {/* Home Content */}
  <div className="container d__flex align__items_center jsutify__content__center">
  <div className="home__content d__flex">
+    <div className="profile">
+            <img src={profile} alt="" className="logo" height="400px"/>
+          </div>
      <div className="home__meta">
          <h1 className="home__text pz__10">Welcome To My Portfolio</h1>
          <h2 className="home__text pz__10">Mohan Dandigam </h2>
