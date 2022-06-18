@@ -10,7 +10,9 @@ li.nav__items{
     padding-bottom: 15px;
 }
 .home__content{
-    padding: 50px 0px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
 }
 h1.home__text{
     font-size: 18px;
@@ -88,6 +90,12 @@ li.sideNavbar{
 .home_container{
     display:flex;
     flex-direction: row;
+}
+.socialmedia{
+    margin-top: 20px;
+}
+.icon{
+    margin-left: 2px;
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
