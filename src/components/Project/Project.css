@@ -53,15 +53,17 @@ img.project__img::after{
     width: 100%;
 }
 h5.project__text {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     padding-bottom: 20px;
+    color: #010101;
 }
 h4.project__text {
     font-size: 22px;
     font-family: Poppins,sans-serif;
     font-weight: 700;
     padding-bottom: 20px;
+    color: #010101;
 }
 a.project__btn {
     padding: 12px 35px;
@@ -86,7 +88,7 @@ button.btn {
     transition: .4s all ease;
 }
 button.view__more:hover{
-    background-color: #fff;
+    background-color: #f9004d;
     border: 2px solid #f9004d;
     color: #f9004d!important;
 }
