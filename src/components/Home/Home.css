@@ -128,13 +128,13 @@ h2.home__text.pz__10{
     font-size: 32px;
 }
 h3.sweet.pz__10 {
-    font-size: 40px;
+    font-size: 28px;
 }
 h1.home__text {
     font-size: 14px;
 }
 h4.home__text {
-    font-size: 45px;
+    font-size: 30px;
 }
 .toggle__menu{
     display: flex;
@@ -144,3 +144,5 @@ h4.home__text {
     width: 100%;
 }
 }
+
+
