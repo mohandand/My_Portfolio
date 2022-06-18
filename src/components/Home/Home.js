@@ -47,7 +47,7 @@ function Home() {
             </svg>
           </div>
           {show ?(
-          <div className="sideNavbar">
+          <div className="sideNavbar" onClick={() => setShow(!show)}>
               <ul className="sidebar d__flex">
               <li className="sideNavbar">
               <a href="#Home">Home</a>
