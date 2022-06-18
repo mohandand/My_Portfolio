@@ -94,6 +94,12 @@ p{
 .component__space{
   padding: 100px 0px;
 }
+.component1__space{
+  padding-top: 155px;
+  padding-left: 0pxpx;
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
 .pointer{
   cursor: pointer;
 }
@@ -144,15 +150,24 @@ button.about.btn.pointer:hover {
 .col__2 {
     max-width: 100%;
 }
+.component1__space{
+  padding: 30px 0px;
+}
 }
 @media only screen and (max-width: 768px){
 .col__3 {
     max-width: 50%;
 }
+.component1__space{
+  padding: 30px 0px;
+}
 }
 @media only screen and (max-width: 425px){
 .col__3 {
     max-width: 100%;
+}
+.component1__space{
+  padding: 30px 0px;
 }
 }
 @media only screen and (max-width: 425px){
@@ -161,6 +176,9 @@ span.copyright {
 }
 .footer.d__flex.align__items__center.justify__content__space__between.pz-10 {
   flex-wrap: wrap;
+}
+.component1__space{
+  padding: 30px 0px;
 }
 }
 
