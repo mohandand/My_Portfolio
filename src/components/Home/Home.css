@@ -13,7 +13,9 @@ li.nav__items{
     padding: 20px 0px;
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
 }
 h1.home__text{
     font-size: 18px;
