@@ -11,7 +11,7 @@ function Home() {
   // Toogle Menu
    const [show, setShow] = useState(false);
   return (
-    <div className="home" id="Home" onClick={() => setShow(false)}>
+    <div className="home" id="Home" onClick={() => setShow(!show)}>
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           {/* <div className="logo">
@@ -75,6 +75,7 @@ function Home() {
            ) : null}
         </div>
         {/* HOME CONTENT */}
+        {/* Home Content */}
  <div className="container d__flex align__items_center jsutify__content__center">
  <div className="home__content d__flex">
      <div className="home__meta">

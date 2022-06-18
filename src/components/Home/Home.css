@@ -10,7 +10,7 @@ li.nav__items{
     padding-bottom: 15px;
 }
 .home__content{
-    padding: 125px 0px;
+    padding: 50px 0px;
 }
 h1.home__text{
     font-size: 18px;
@@ -85,7 +85,10 @@ li.sideNavbar{
   .mar{
     margin-top: 40px;
   }
-
+.home_container{
+    display:flex;
+    flex-direction: row;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
  .header{
