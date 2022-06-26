@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import "./About.css";
 import profile from "../../img/myimage.JPG"
 function About() {
@@ -18,20 +18,15 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              Pursuing a Master's degree focused in Computer Science from California State University - East Bay. 
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              Also having 5+ years of professional experience in design, development, testing, deploying and maintaining the highly scalable software projects.
+               Worked as Software Engineer as part of my professional experience with Cognizant Technology Solutions across multiple clients. 
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+              Technical Skills:Programming Languages/Frameworks/Libraries:
+               Java, JavaScript, HTML5, CSS3, SCSS, ReactJS, Redux, Python, NodeJS, AJAX, JSON, Bootstrap ,Jest and Mocha.
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href="myimage.JPG" download="Mohan Resume">
